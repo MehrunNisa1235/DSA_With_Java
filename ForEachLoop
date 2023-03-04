@@ -1,0 +1,14 @@
+
+// for each loop :- 
+
+
+public class ForEachLoop{
+    public static void main(String args[]){
+
+        int a[]={20,24,34,56,60}; 
+        for(int i:a){
+            System.out.print(i + " "); 
+        }
+        
+   }
+}
