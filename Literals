@@ -1,0 +1,15 @@
+
+
+//Literals:- 
+public class Literals{
+    public static void main(String args[]){
+
+        int x=10;       //decimal literals 
+        int y=060;      //octal literals 
+        int z=0XF;      //hexadecimal literals 
+        String s="mehar";
+        System.out.println(x +" "+ y +" "+ z +" "+s);
+        
+        
+   }
+}
