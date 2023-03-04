@@ -1,0 +1,29 @@
+
+
+
+public class SumOfArray{
+    public static void main(String args[]){
+
+        int a[]={20,24,34,56,60}; 
+       
+
+        //using for loop:- 
+
+        int sum=0; 
+        for(int i=0;i<a.length;i++)
+        {
+            sum=sum+a[i]; 
+        }
+        System.out.println("using for loop sum is : " +sum); 
+
+        // using for each loop:- 
+        
+        sum=0;
+        for(int i:a){
+             
+            sum=sum+i; 
+        }
+        System.out.println("using for each loop sum is : " +sum); 
+        
+   }
+}
